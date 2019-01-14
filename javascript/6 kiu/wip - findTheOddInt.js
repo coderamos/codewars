@@ -3,9 +3,9 @@
 function findOdd(A) {
     // let newArray = A.map(function (value, index) { console.log(value) })
     for (let i = 0; i < A.length; i++) {
-        for (let j = i + 1; j < array.length; j++) {
+        for (let j = i + 1; j < A.length; j++) {
             if (A[i] == A[j]) {
-
+                console.log(i)
             }
         }
     }

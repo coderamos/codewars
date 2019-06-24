@@ -1,7 +1,6 @@
-/*Given an array, find the int that appears an odd number of times. There will always be only one integer that appears an odd number of times.*/
+// https://www.codewars.com/kata/54da5a58ea159efa38000836
 
 function findOdd(A) {
-    // let newArray = A.map(function (value, index) { console.log(value) })
     for (let i = 0; i < A.length; i++) {
         for (let j = i + 1; j < A.length; j++) {
             if (A[i] == A[j]) {

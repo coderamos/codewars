@@ -8,8 +8,8 @@ function simpleTransposition(text) {
     }
     row1.push(value);
   });
-  return `${row1.join('')}${row2.join('')}`;
+  return `${row1.join("")}${row2.join("")}`;
 }
 
-const text1 = 'Sample text';
+const text1 = "Simple text";
 console.log(simpleTransposition(text1));
